@@ -18,10 +18,10 @@ rss: default
 # ===========================================
 menu:
   Home: /
-  # Archives: /archives/
+  Archives: /archives/
   # Tags: /tags
   # Categories: /categories
-  # About: /about
+  About: /about
 
 # ===========================================
 # Theme Settings
