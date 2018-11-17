@@ -18,6 +18,8 @@ posts:
   readmore: 阅读更多
   visits: '阅读次数'
   reward: '赞赏支持'
+  create_time: 发表于
+  update_time: 更新于
 
 copyright:
   author: '原文作者'

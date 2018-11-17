@@ -11,7 +11,8 @@
 
       <div class="post-meta">
         <span class="post-time">
-          {{ full_date(post.date, 'YYYY-MM-DD HH:mm:ss') }}
+          <span>{{ __('posts.create_time') + ' ' }}</span>{{ full_date(post.date, 'YYYY-MM-DD HH:mm:ss') }}
+          <span>{{ __('posts.update_time') + ' ' }}</span>{{ full_date(post.updated, 'YYYY-MM-DD HH:mm:ss') }}
         </span>
         {% if post.categories and post.categories.length %}
           <span class="post-category">
