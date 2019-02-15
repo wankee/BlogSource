@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Buildiaatestng..'
+                echo 'Secondtest..'
             }
         }
         stage('Deploy') {
