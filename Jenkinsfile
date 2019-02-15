@@ -4,7 +4,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Secondtest..'
+                sh 'npm install'
+                sh 'hexo g'
+                echo '===>End Build<=='
             }
         }
         stage('Deploy') {
