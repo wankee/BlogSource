@@ -6,13 +6,11 @@ pipeline {
             steps {
                 sh 'npm install'
                 sh 'hexo g'
-                sh 'hexo d'
-                echo '===>End Build<=='
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                sh 'hexo d'
             }
         }
     }
