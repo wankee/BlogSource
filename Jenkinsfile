@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh 'npm install'
                 sh 'hexo g'
-                sh 'hexo server'
+                sh 'hexo d'
                 echo '===>End Build<=='
             }
         }
