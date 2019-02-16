@@ -13,11 +13,12 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'npm install'
+                sh 'hexo g'
             }
         }
         stage('Deploy') {
             steps {
-                sh 'hexo g -d'
+                sh 'hexo d'
             }
         }
     }
