@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Prepare') {
             steps {
+                sh 'hexo clean'
                 sh 'rm -rf .deploy_git'
                 sh 'git config --global user.name "jenkins"'
                 sh 'git config --global user.email  "jenkins@aws.com"'
