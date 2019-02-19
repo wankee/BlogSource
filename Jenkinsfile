@@ -7,7 +7,7 @@ pipeline {
                 sh 'hexo clean'
                 sh 'rm -rf .deploy_git'
                 sh 'git config --global user.name "jenkins"'
-                sh 'git config --global user.email  "jenkins@aws.com"'
+                sh 'git config --global user.email  "wang24118@qq.com"'
                 sh 'git clone git@github.com:wankee/wankee.github.io.git .deploy_git'
             }
         }
