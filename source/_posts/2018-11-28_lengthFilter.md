@@ -1,7 +1,8 @@
 ---
 title: Android中android:maxLength属性解析及使用字节数来限制EditText文字长度（汉字算2个字符，英文算一个字符）
 date: 2018-11-28 14:03:23
-tags:
+tags: android
+category: android
 ---
 # 代码分析
 
